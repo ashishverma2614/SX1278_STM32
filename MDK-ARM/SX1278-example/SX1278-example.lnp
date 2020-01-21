@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"sx1278-example\startup_stm32f103xb.o"
+"sx1278-example\main.o"
+"sx1278-example\gpio.o"
+"sx1278-example\spi.o"
+"sx1278-example\stm32f1xx_it.o"
+"sx1278-example\stm32f1xx_hal_msp.o"
+"sx1278-example\sx1278.o"
+"sx1278-example\stm32f1xx_hal_gpio_ex.o"
+"sx1278-example\stm32f1xx_hal_spi.o"
+"sx1278-example\stm32f1xx_hal_spi_ex.o"
+"sx1278-example\stm32f1xx_hal_tim.o"
+"sx1278-example\stm32f1xx_hal_tim_ex.o"
+"sx1278-example\stm32f1xx_hal.o"
+"sx1278-example\stm32f1xx_hal_rcc.o"
+"sx1278-example\stm32f1xx_hal_rcc_ex.o"
+"sx1278-example\stm32f1xx_hal_gpio.o"
+"sx1278-example\stm32f1xx_hal_dma.o"
+"sx1278-example\stm32f1xx_hal_cortex.o"
+"sx1278-example\stm32f1xx_hal_pwr.o"
+"sx1278-example\stm32f1xx_hal_flash.o"
+"sx1278-example\stm32f1xx_hal_flash_ex.o"
+"sx1278-example\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "SX1278-example\SX1278-example.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SX1278-example.map" -o SX1278-example\SX1278-example.axf

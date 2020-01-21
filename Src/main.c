@@ -2,9 +2,9 @@
   ******************************************************************************
   * File Name          : main.c
   * Description        : Main program body
-	* Author             : Ashish Kumar Verma 
-	* Date               : 21-01-2019
-	* Contact            : Ashish2614@gmail.com
+  * Author             : Ashish Kumar Verma 
+  * Date               : 21-01-2019
+  * Contact            : Ashish2614@gmail.com
   ******************************************************************************
   ** This notice applies to any and all portions of this file
   * that are not between comment pairs USER CODE BEGIN and
